@@ -1,0 +1,17 @@
+.taxCalculator {
+  background: #F1F1F4;
+  padding: 32px;
+  margin: 0;
+  height: inherit;
+
+  h1 {
+    padding: 0;
+    margin: 0 0 16px 0px;
+    font-family: "Inter", sans-serif;
+  }
+
+  .taxCalculator__wrapper {
+    display: flex;
+    gap: 16px;
+  }
+}

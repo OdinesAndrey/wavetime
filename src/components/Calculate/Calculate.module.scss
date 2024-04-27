@@ -1,0 +1,52 @@
+.calculate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FFFFFF;
+  width: 40%;
+  height: 648px;
+  border-radius: 12px;
+  padding: 16px;
+  font-family: "Inter", sans-serif;
+
+
+
+  .calculate__selects {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    &_heading {
+     font-weight: 500;
+    }
+
+    .select {
+      padding: 8px;
+      border: 1px solid #99A1B7;
+      background: #FFFFFF;
+      border-radius: 4px;
+      outline: none;
+      cursor: pointer;
+
+      option:not(:first-of-type) {
+        color: black;
+      }
+    }
+  }
+
+  .calculate__button {
+    background: #99A1B7;
+    color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      background: #848da1;
+    }
+
+  }
+
+}
